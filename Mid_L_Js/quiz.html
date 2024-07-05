@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            height: 60vh;
+            width: 75vh;
+            border-radius: 0.5rem;
+            border: 2px solid black;
+            padding: 0 3rem;
+        }
+        .questionBox{
+            width: 100%;
+            height: 15%;
+            align-content: center;
+        }
+        .answareBox{
+            width: 100%;
+            height: 75%;
+        }
+        .btn{
+            height: 10%;
+            width: 100%;
+            align-content: center;
+            text-align: center;
+            margin-top: -30px;
+        }
+        .btn button{
+            width: 7rem;
+            height: 3rem;
+            cursor: pointer;
+        }
+        button:active{
+            transform: scale(0.95);
+        }
+        .answare{
+            width: 100%;
+            height: 13%;
+            border: 1.4px solid black;
+            margin-top: 1rem;
+            align-content: center;
+            padding-left: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="questionBox">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+        </div>
+        <div class="answareBox">
+            <div class="answare">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="answare">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="answare">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="answare">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="answare">Lorem ipsum dolor sit amet consectetur.</div>
+        </div>
+        <div class="btn">
+            <button>Next</button>
+        </div>
+    </div>
+
+
+    <script src="Clouser.js"></script>
+</body>
+</html>
